@@ -15,3 +15,9 @@ public class Main
 	    System.out.println("Reversed List : "+ln);
 	}
 }
+
+
+//Routput:
+
+// Sorted List : [2, 4, 8, 9, 54]                                                                                                    
+// Reversed List : [54, 9, 8, 4, 2]
