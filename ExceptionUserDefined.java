@@ -15,7 +15,7 @@ public class ExceptionUserDefined {
     public static int number() throws InvalidNumberException
     {
         Scanner in = new Scanner(System.in);
-        System.out.print("Enter the number from 1 to 9 : ");
+        System.out.print("Enter the valid number from 1 to 9 : ");
         int num = in.nextInt();
         if(num <= 0 || num >= 10)
         {
@@ -37,6 +37,9 @@ public class ExceptionUserDefined {
         {
             System.out.println("Exception in main method is : "+e);
         }
+        finally
+        {
+            System.out.println("Finally block");
+        }
     }
-    
 }
